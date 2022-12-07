@@ -2,41 +2,35 @@ import Button from "./Button";
 import React, { useState, useEffect, useInsertionEffect } from "react";
 import styles from "./App.module.css";
 
-function Hello() {
-  /*
-  function byeFn() {
-    console.log("Bye :)");
-  }
-
-  function hiFn() {
-    console.log("created!");
-    return byeFn;
-  }
-  useEffect(hiFn, []);
-*/
-  /*
-useEffect(function() {
-    console.log("created");
-    return function() {
-      console.log("destroyed");
-    };
-  }, []);
-*/
-  useEffect(() => {
-    console.log("created");
-    return () => console.log("destroyed");
-  }, []);
-
-  return <h1>Hello</h1>;
-}
-
 function App() {
-  const [showing, setShowing] = useState(false);
-  const onClick = () => setShowing((prev) => !prev);
+  const [toDo, setToDo] = useState("");
+  const [toDos, setToDos] = useState([]);
+  const onChange = (event) => setToDo(event.target.value);
+  const onSubmit = (event) => {
+    event.preventDefault();
+    if (toDo === "") {
+      return;
+    }
+    setToDos((currentArray) => [toDo, ...currentArray]);
+    setToDo("");
+  };
+  console.log(toDos);
   return (
     <div>
-      <button onClick={onClick}>{showing ? "Hide" : "Show"}</button>
-      {showing ? <Hello /> : null}
+      <h1>My To Dos. ({toDos.length})</h1>
+      <form onSubmit={onSubmit}>
+        <input
+          onChange={onChange}
+          value={toDo}
+          type="text"
+          placeholder="Write your todo"
+        />
+        <button>Add To Do</button>
+      </form>
+      <hr />
+      {toDos.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
     </div>
   );
 }
