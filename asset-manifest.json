@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.2cd61405.chunk.css",
-  "main.js": "/static/js/main.a149069d.chunk.js",
-  "main.js.map": "/static/js/main.a149069d.chunk.js.map",
-  "static/js/1.656f6da9.chunk.js": "/static/js/1.656f6da9.chunk.js",
-  "static/js/1.656f6da9.chunk.js.map": "/static/js/1.656f6da9.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.2cd61405.chunk.css.map": "/static/css/main.2cd61405.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.57b4ff850042c68e12a1f804c055846f.js": "/precache-manifest.57b4ff850042c68e12a1f804c055846f.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/reactjs-for-beginners-2022-2/static/css/main.2cd61405.chunk.css",
+  "main.js": "/reactjs-for-beginners-2022-2/static/js/main.a149069d.chunk.js",
+  "main.js.map": "/reactjs-for-beginners-2022-2/static/js/main.a149069d.chunk.js.map",
+  "static/js/1.656f6da9.chunk.js": "/reactjs-for-beginners-2022-2/static/js/1.656f6da9.chunk.js",
+  "static/js/1.656f6da9.chunk.js.map": "/reactjs-for-beginners-2022-2/static/js/1.656f6da9.chunk.js.map",
+  "runtime~main.js": "/reactjs-for-beginners-2022-2/static/js/runtime~main.73b28719.js",
+  "runtime~main.js.map": "/reactjs-for-beginners-2022-2/static/js/runtime~main.73b28719.js.map",
+  "static/css/main.2cd61405.chunk.css.map": "/reactjs-for-beginners-2022-2/static/css/main.2cd61405.chunk.css.map",
+  "index.html": "/reactjs-for-beginners-2022-2/index.html",
+  "precache-manifest.ad4276506a25e21efdc97ed3c8e6cd02.js": "/reactjs-for-beginners-2022-2/precache-manifest.ad4276506a25e21efdc97ed3c8e6cd02.js",
+  "service-worker.js": "/reactjs-for-beginners-2022-2/service-worker.js"
 }
