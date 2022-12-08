@@ -24,8 +24,11 @@ function Detail() {
   ) : (
     <div>
       <span>
-        <Link to="/">Back to Home</Link>
+        <Link to="/">◀ Back to Home</Link>
       </span>
+      <br />
+      <br />
+      <br />
       <Movie
         key={movie.id}
         id={movie.id}
