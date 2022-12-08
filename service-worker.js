@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/reactjs-for-beginners-2022-2/precache-manifest.619ca833563a354f75f4a9f853cd9e5f.js"
+  "/reactjs-for-beginners-2022-2/precache-manifest.05ad7fa27e866f834ede84ca19c6e184.js"
 );
 
 workbox.clientsClaim();
